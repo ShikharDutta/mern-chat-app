@@ -40,7 +40,8 @@ bower_components
 # Dependency directories
 node_modules/
 jspm_packages/
-
+/fontend/node_modules
+/fronend/build
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
