@@ -1,3 +1,4 @@
+import React from "react";
 const express = require('express');
 const { accessChat, fetchChats, createGroupChat, renameGroup, addToGroup, removeFromGroup } = require('../controllers/chatControllers');
 const { protect } = require('../middleware/authMiddleware');
