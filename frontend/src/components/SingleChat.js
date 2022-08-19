@@ -17,7 +17,7 @@ import animationData from "../animations/typing.json";
 
 import io from "socket.io-client";
 
-const ENDPOINT = "https://chat-app-plus-plus.herokuapp.com/ "; // 
+const ENDPOINT = "https://localhost:3001"; // 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
