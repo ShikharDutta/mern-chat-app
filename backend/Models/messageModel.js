@@ -1,3 +1,4 @@
+import React from "react";
 const mongoose = require('mongoose');
 
 const messageModel = mongoose.Schema({

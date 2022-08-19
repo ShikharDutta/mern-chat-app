@@ -1,3 +1,4 @@
+import React from "react";
 const asyncHandler = require("express-async-handler");
 const User = require("../Models/userModel")
 const generateToken = require("../config/generateToken");

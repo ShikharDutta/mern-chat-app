@@ -1,4 +1,4 @@
-
+import React from "react";
 import ProfileModal from "./ProfileModal";
 import { getSender } from "../config/ChatLogics";
 import NotificationBadge from "react-notification-badge";
