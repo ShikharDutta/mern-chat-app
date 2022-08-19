@@ -1,16 +1,20 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "heroku-postbuild":"NP_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NP_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Shikhar Dutta",
   "license": "ISC",
-  "engines":{"node":"16.16.0"},
+  "engines": {
+    "node": "16.13.2"
+  },
   "dependencies": {
+    "@ampproject/remapping": "^2.2.0",
+    "@babel/core": "^7.18.10",
+    "@babel/generator": "^7.18.12",
     "@chakra-ui/icons": "^2.0.8",
     "@chakra-ui/react": "^2.2.6",
     "@emotion/react": "^11.10.0",
@@ -27,5 +31,14 @@
     "nodemon": "^2.0.19",
     "react-router-dom": "^5.3.3",
     "socket.io": "^4.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShikharDutta/mern-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShikharDutta/mern-chat-app/issues"
+  },
+  "homepage": "https://github.com/ShikharDutta/mern-chat-app#readme",
+  "description": ""
 }
