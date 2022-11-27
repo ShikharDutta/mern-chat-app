@@ -6,7 +6,7 @@ Here are some screenshots.
 
 <h1>Login Page</h1>
 
-![Login page](https://github.com/ShikharDutta/mern-chat-app/blob/c76fd61d568411aaa2d2e78cb3d3584f47a325d9/Screenshot%20(33).png)
+![Login page](https://github.com/ShikharDutta/mern-chat-app/blob/3546f8731efbde9958b09de4491507d207dd412c/Screenshot%20(35).png)
 
 <h1>UI</h1>
 
