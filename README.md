@@ -10,4 +10,4 @@ Here are some screenshots.
 
 <h1>UI</h1>
 
-![UI][https://github.com/ShikharDutta/mern-chat-app/blob/686d7fe942b9b66dad9bcbfb157b6fb7f041add9/Screenshot%20(34).png]
+![UI](https://github.com/ShikharDutta/mern-chat-app/blob/686d7fe942b9b66dad9bcbfb157b6fb7f041add9/Screenshot%20(34).png)
